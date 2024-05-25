@@ -174,7 +174,7 @@ header nav .about-me a {
   margin-right: 47px;
 }
 
-main {
+.home__main {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   align-items: center;
@@ -186,14 +186,14 @@ main {
   background-repeat: no-repeat;
 }
 
-main .hero__container {
+.home__main .hero__container {
   display: grid;
   grid-column: 2;
   justify-items: center;
   height: 380px;
 }
 
-main h1 {
+.home__main h1 {
   color: white;
   font-size: var(--lt-38);
   letter-spacing: 10px;
@@ -201,7 +201,7 @@ main h1 {
   text-wrap: balance;
 }
 
-main a {
+.home__main a {
   width: 110px;
   height: 50px;
   background-color: #40c7a3;
@@ -216,7 +216,7 @@ main a {
   align-items: center;
 }
 
-main a:hover {
+.home__main a:hover {
   background-color: #47cfac;
   transform: scale(1.2);
 }
