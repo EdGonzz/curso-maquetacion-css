@@ -1,0 +1,125 @@
+@media (max-width: 600px) {
+
+  body {
+    width: 100%;
+    height: auto;
+  }
+
+  .home__header {
+    width: 100%;
+    min-width: 320px;
+    height: 26vh;
+  }
+
+  .home__header nav {
+    padding: 0;
+  }
+
+  .home__header nav .logo a img{
+    width: 180px;
+  }
+  
+
+  .home__header nav .about-me a {
+    font-size: var(--lt-20);
+    margin-right: 30px;
+  }
+
+  .home__main {
+    width: 100%;
+    min-width: 320px;
+    height: calc(100vh - 26vh);
+    /* background-attachment: fixed; */
+  }
+
+  .home__main .hero__container {
+    height: auto;
+    gap: 20px;
+  }
+
+  .home__main h1 {
+    font-size: var(--lt-26);
+  }
+
+  /* blogs page */
+
+  .article--big {
+    grid-template-columns: 1fr;
+  }
+
+  .article--big img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .article--big div {
+    padding: 18px 0;
+    gap: 18px;
+  }
+
+  .article--big div p {
+    font-size: var(--st-14);
+    font-weight: 500;
+    width: fit-content;
+  }
+
+  .article__container .article__grid {
+    grid-template-columns: 1fr;
+    padding: 0 30px 50px;
+  }
+
+  .article__container .article__grid .article--small {
+
+    gap: 12px;
+  }
+
+  footer {
+    padding-inline: 20px;
+  }
+
+  /* blog page */
+
+  .blog__main img {
+    height: auto;
+  }
+
+  .contact__container {
+    padding: 20px 0;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact__container .card__contact {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card__contact div {
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    text-align: center;
+  }
+
+  .contact__container img {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* profile page */
+
+  .profile__main .article--big {
+    grid-template-columns: 1fr;
+    gap: 0;
+    width: 100%;
+  }
+
+  .profile__main .article--big img {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  
+}
