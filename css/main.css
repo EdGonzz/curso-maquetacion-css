@@ -266,11 +266,12 @@ section h2 {
 .article--big {
   display: grid;
   grid-template-columns: 3fr 2fr;
+  justify-content: center;
 }
 
 
 .article--big img {
-  width: 90%;
+  width: 85%;
   height: 90%;
   aspect-ratio: 2500/1500;
   object-fit: cover;
@@ -344,4 +345,87 @@ footer {
 footer p {
   color: aliceblue;
   font-size: var(--st-14);
+}
+
+/* blog page */
+
+
+.blog__main figure {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog__main img {
+  width: 100%;
+  height: 600px;
+  aspect-ratio: 2500/1500;
+  object-fit: cover;
+}
+
+.text__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text__container h3 {
+  font-size: var(--mt-16);
+  margin: 20px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #dfe3e9;
+}
+
+.text__container article h2 {
+  font-size: var(--lt-32);
+  margin: 20px 0;
+}
+
+.text__container article p {
+  font-size: var(--mt-16);
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.contact__container {
+  background-color: #dfe3e9;
+  height: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.contact__container .card__contact {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card__contact div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: 350px;
+}
+
+.contact__container img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.contact__container a {
+  width: fit-content;
+  padding-bottom: 2px;
+  font-size: var(--mt-16);
+  font-weight: 800;
+  border-bottom: 2px solid black;
+  color: black;
+  text-decoration: none;
+}
+
+.contact__container p {
+  font-size: var(--st-14);
+  font-weight: 800;
 }
