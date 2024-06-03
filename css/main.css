@@ -260,7 +260,7 @@ section h2 {
 
 .article__banner {
   background-color: #dfe3e9;
-  padding: 30px 40px 0;
+  padding: 30px 40px 5px;
 }
 
 .article--big {
@@ -317,7 +317,7 @@ section h2 {
   gap: 20px 30px;
 }
 
-.article__container .article__grid .article--small h3 {
+.article__container .article--small h3 {
   font-size: var(--lt-24);
 }
 
@@ -428,4 +428,35 @@ footer p {
 .contact__container p {
   font-size: var(--st-14);
   font-weight: 800;
+}
+
+/* profile page */
+
+
+.profile__main .article--big {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  justify-items: end;
+  width: 90%;
+}
+
+.profile__main .article--big img {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 2500/1500;
+  object-fit: cover;
+}
+
+.profile__main .article--big div p {
+  width: 100%;
+}
+
+.profile__main .article__container header h2 {
+  font-size: var(--mt-18);
+  padding: 0 0 20px;
+}
+
+.profile__main .article--small h3 {
+  font-size: var(--mt-16);
 }
